@@ -1,16 +1,23 @@
 # InjectCO2
 Injecteur CO2 automatique
 
+
 Modes de fonctionnement : 
 
 Il existe six modes de fonctionnement que l'utilisateur peut sélectionner :
 
 EV1 Partielle : Seule l'électrovanne 1 est activée à intervalles réguliers.
+
 EV2 Partielle : Seule l'électrovanne 2 est activée à intervalles réguliers.
+
 EV1&2 Partielle : Les deux électrovannes sont activées à intervalles réguliers.
+
 EV1 Continu : L'électrovanne 1 est activée en continu.
+
 EV2 Continu : L'électrovanne 2 est activée en continu.
+
 EV1&2 Continu : Les deux électrovannes sont activées en continu.
+
 
 
 
