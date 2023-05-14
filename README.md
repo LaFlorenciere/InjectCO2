@@ -34,10 +34,16 @@ Achats:
 Montage
 
 Carte Arduino : Vous aurez besoin d'une carte Arduino Mega 2560 pour ce projet.
+
 Encodeur rotatif : C'est un dispositif de saisie qui peut être tourné dans les deux sens. Il a trois broches - CLK (ou A), DT (ou B) et SW (ou Button). Connectez la broche A à la broche 2 de l'Arduino Mega, la broche B à la broche 3 de l'Arduino Mega, et la broche Button à la broche 4. N'oubliez pas de connecter également la broche GND de l'encodeur à une broche GND de l'Arduino Mega.
+
 Interrupteurs : Vous aurez besoin de deux interrupteurs pour contrôler les électrovannes. Connectez un côté de chaque interrupteur à une broche GND de l'Arduino Mega et l'autre côté respectivement aux broches A3 et A4 de l'Arduino Mega.
+
 Électrovannes : Ces composants permettent de contrôler le débit d'un fluide. Connectez la broche positive (généralement rouge) de chaque électrovanne à une broche de sortie de l'Arduino Mega (9 et 10 respectivement), et la broche négative (généralement noire) à une broche GND de l'Arduino Mega. Selon la tension requise par vos électrovannes, vous pourriez avoir besoin d'un transistor et d'une diode de roue libre pour chaque électrovanne pour contrôler la haute tension à partir de la sortie de basse tension de l'Arduino Mega.
+
 Écran LCD I2C : Pour l'Arduino Mega, connectez la broche SDA à la broche 20 (SDA) de l'Arduino, la broche SCL à la broche 21 (SCL), VCC à la broche 5V, et GND à une broche GND.
+
 Bibliothèques Arduino : Vous aurez besoin des bibliothèques Wire, LiquidCrystal_I2C et RotaryEncoder. Vous pouvez les installer via le gestionnaire de bibliothèques de l'IDE Arduino. Allez dans Sketch > Include Library > Manage Libraries..., tapez le nom de la bibliothèque dans la barre de recherche, puis cliquez sur Install.
+
 Code : Une fois que vous avez connecté tous les composants et installé les bibliothèques, vous pouvez télécharger le code, l'ouvrir dans l'IDE Arduino et le téléverser sur votre carte.
 N'oubliez pas de vérifier les connexions et de vous assurer que tout est correctement alimenté avant de téléverser le code sur l'Arduino. Aussi, assurez-vous que les électrovannes sont compatibles avec votre source d'alimentation.
